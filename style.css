@@ -1,0 +1,226 @@
+body{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px;
+}
+.header{
+width: 100%;
+height: 525px;
+background: rgb(242,244,247);
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 154px;
+padding-top: 200px;
+}
+.left-side{
+flex-direction: column;
+margin-left:-77px;
+}
+.logo {
+height: 106px;
+margin: -28px;
+margin-bottom: -42px;
+}
+.text{
+width: 500px;
+font-size: 28px;
+}
+.right-side{
+margin: 0px;
+flex-direction: column;
+margin: -70px;
+}
+.loginbar{
+padding-top: 20px;
+width: 390px;
+height: 330px;
+background: white;
+flex-direction: column;
+display: flex;
+align-items: center;
+gap: 15px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+border-radius: 8px;
+}
+.phone{
+line-height: 48px;
+width: 359px;
+border: none; 
+justify-content: left;
+padding-left: 0px;
+}
+.phone input{
+width: 93%;
+height: 100%;
+padding-left: 20px;
+color: black ;
+font-size: 17px; 
+border-radius: 6px;
+border: 1px solid rgba(222, 222, 222, 0.104);
+border-color: rgba(211, 211, 211, 0.753);
+}
+.phone input:focus{
+border: 1px solid #0062ff;
+outline: 2px solid #3fa3ef32;
+opacity: 80%;
+}
+.password{
+width: 355px;
+border-radius: 6px;
+line-height:50px;
+border: 1px solid rgba(222, 222, 222, 0.104);
+border-color: rgba(211, 211, 211, 0.753);
+position: relative;
+}
+.password input{
+outline: 0;
+border: 0;
+width: 300px;
+height: 40px;
+padding-left:20px;
+color: black ;
+font-size: 17px; 
+}
+.password img{
+width: 20px;
+cursor: pointer;
+}
+.password:hover{
+border: 1px solid #0062ff;
+outline: 2px solid #3fa3ef32;
+}
+.password input:focus{
+opacity: 80%;
+}
+.login{
+color: white;
+background-color: #0866ff;
+border: none;
+border-radius: 6px;
+font-size: 20px;
+height: 50px;
+padding: 0 16px;
+width: 355px;
+font-weight: bold;
+}
+.login:hover{
+background-color: #3d7fe9;
+}
+.forgot-pass{
+font-size: 14px;
+color: rgb(8, 102, 255);
+text-decoration: none;
+}
+.forgot-pass:hover{
+text-decoration:underline;
+color: rgb(8, 102, 255);
+}
+.loginbar hr{
+width: 360px;
+color: black;
+opacity: 30%;
+}
+.new-account{
+color: white;
+background-color: #42b72a;
+border-color: #42b72a;
+border: none;
+border-radius: 6px;
+font-size: 17px;
+line-height: 48px;
+width: 190px;
+font-weight: bold;
+}
+.new-account:hover{
+background-color: #319f1b;
+}
+.create-page{
+font-size: 14px;
+margin-top: 33px;
+margin-left: 40px;
+}
+.footer{
+width: 100%;
+background:white;
+height: 170px;
+align-items: center;
+justify-content: center;
+}
+.footer-text {
+width: 965px;
+height: 25px;
+color: rgba(38, 37, 37, 0.607);
+text-decoration: none;
+font-size: 13px;
+padding-top: 25px;
+padding-left: 260px;
+}
+.footer-text a{
+width: 50px;
+height: 20px;
+color: rgba(38, 37, 37, 0.607);
+text-decoration: none;
+font-size: 13px;
+align-items: center;
+justify-content: center;
+padding-left: 5px;
+}
+.footer-text a:hover{
+text-decoration: underline;
+}
+hr{
+width: 951px;
+color: black;
+opacity: 30%;
+margin-top: 13px;
+}
+.footer-text image{
+width: 10px;
+}
+.icon{
+width: 30px;
+height: 20px;
+background: rgba(239, 234, 234, 0.611);
+border: 1px solid #bdbebfdd;
+border-radius: 3px;
+}
+.icon:hover{
+background: rgba(207, 205, 205, 0.611);
+}
+.icon img{
+margin-left: -4px;
+width: 12.5px;
+}
+.footertext{
+width: 970px;
+height: 56px;
+color: rgba(38, 37, 37, 0.607);
+text-decoration: none;
+font-size: 13px;
+padding-top: 18px;
+padding-left: 250px;
+}
+.footertext a{
+width: 50px;
+height: 20px;
+color: rgba(38, 37, 37, 0.607);
+text-decoration: none;
+font-size: 12px;
+align-items: center;
+justify-content: center;
+padding-left: 15px;
+}
+.footertext a:hover{
+text-decoration: underline;
+}
+.meta{
+width: 80px;
+font-size: 12px;
+color: rgba(38, 37, 37, 0.607);
+padding-left: 264px;
+}
+.footertext img{
+width: 15px;
+padding-left:0px;
+margin: 0;
+}
